@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ $# -ne 2 ]
+if [ $# -ne 1 ]
 then
 	exit 1
 fi
 
 title=$1
-gtags -v && htags -sofFnvaIht "$title"
+gtags  && htags -sofFnaIht "$title"
